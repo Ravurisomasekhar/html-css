@@ -52,12 +52,6 @@
 .four ul li{
     margin-right: 20px;
 }
-/* .five ul li{
-    margin-left: 50px;
-}
-.five{
-    margin-bottom: 20px;
-} */
 .six h2{
     color: rgb(0,0,255);
     padding: 10px 0px;
@@ -100,10 +94,8 @@
     text-align: center;
 }
 .box{
-    
         padding: 20px;
         background-color: rgb(208, 207, 207); 
-        
 
 }
 .mama{
@@ -129,9 +121,6 @@
     border-radius: 5px;
 }
 .five{
-    /* display: grid;
-    grid-column: 16.5% 16.5% 16.5% 16.5% 16.5% 16.5%;
-    grid-gap: 10px; */
     display: flex;
     justify-content: space-between;
 }
@@ -273,4 +262,82 @@
 h3{
     color: #0040df;
 }
+.video iframe{
+    width: 80%;
+    padding-left: 130px;
+    padding-top: 10px;
+}
+.nine01{
+    padding-left: 20px;
+}
+.nine02{
+    padding-left: 5px;
+}
+.nine03{
+    padding-left: 10px;
+}
+.nine04{
+    padding-left: 10px;
+}
 
+.nine i{
+    color:#f1eded;
+    font-size: 28px;
+}
+.nine a{
+   margin-top: 100px;
+   
+}
+.video{
+    background-color: rgba(251, 246, 246, 0.825);
+}
+.video iframe{
+        width: 450px;
+        padding-left: 400px;
+}
+.baba{
+    background-color: rgb(193, 193, 195);
+    padding-top: 20px;
+    border-radius: 5px;
+}
+.video iframe{
+    margin: 50px 0px;
+}
+.video h1{
+    color: rgb(0,0,255);
+    margin-left: 10px;
+    
+}
+ .nine{
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+  } 
+  
+  .nine .social-media {
+    margin-top: 10px;
+  }
+  
+  .nine .social-media a {
+    margin: 0 10px;
+    display: inline-block;
+  }
+  
+  .nine .social-media img {
+    width: 35px;
+    height: 35px;
+    transition: transform 0.3s ease;
+  }
+  
+  .nine .social-media a:hover img {
+    transform: scale(1.2);
+  }
+  .baba h1{
+    padding-top: 20px;
+  }
+  .baba h5{
+   text-align: center;
+   padding-bottom: 20px;
+   font-size: 20px;
+  }
