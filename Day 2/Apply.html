@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application From</title>
+    <link rel="stylesheet" a href="styles.css">
+</head>
+<bod class="num">
+<div class="from">
+    <h1>Application Form</h1>
+    <form action="submit_form.php" method="post" enctype="multipart/form-data">
+        <label for="fullName">Full Name:</label>
+        <input type="text" id="fullName" name="fullName" required>
+        
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required>
+        
+        <label for="statementOfPurpose">Statement of Purpose:</label>
+        <textarea id="statementOfPurpose" name="statementOfPurpose" rows="5" required></textarea>
+        
+        <label for="resume">Upload Resume/CV:</label>
+        <input type="file" id="resume" name="resume" accept=".pdf,.doc,.docx" required>
+        
+        <button type="submit">Submit</button>
+    </form>
+</div>
+</body>
+</html>
