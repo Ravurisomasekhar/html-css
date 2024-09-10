@@ -341,70 +341,69 @@ h3{
    padding-bottom: 20px;
    font-size: 20px;
   }
-.ten h1{
-    margin-left: 580px;
-    margin-top: 60px;
+  .num{
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
-.form-group{
-    margin-left: 500px;
-    margin-top: 30px;
+
+.from {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
 }
-.form-group label{
-    margin-left: 25px;
-    font-size: 30px;
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
 }
-.form-group input{
-    font-size: 25px;
+
+form {
+    display: flex;
+    flex-direction: column;
 }
-.form-group1{
-    margin-left: 500px;
-    margin-top: 30px;
+
+label {
+    margin-bottom: 8px;
+    font-weight: bold;
 }
-.form-group1 label{
-    margin-left: -30px;
-    font-size: 30px;
+
+input[type="text"],
+input[type="email"],
+input[type="date"],
+textarea,
+input[type="file"] {
+    margin-bottom: 16px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 100%;
 }
-.form-group1 input{
-    font-size: 30px;
+
+textarea {
+    resize: vertical;
 }
-.form-group2{
-    margin-left: 500px;
-    margin-top: 30px;
+
+button {
+    background-color: #28a745;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
 }
-.form-group2 label{
-    font-size: 30px;
-    margin-left: -10px;
-}
-.form-group2 input{
-    font-size: 30px;
-    
-}
-.form-group3{
-    margin-left: 500px;
-    margin-top: 30px;
-}
-.form-group3 label{
-    font-size: 30px;
-}
-.form-group4{
-    margin-left: 500px;
-}
-.form-group4 label{
-    font-size: 30px;
-}
-.form-group4 input{
-    margin-top: 30px;
-}
-.ten button{
-    margin-left: 700px;
-    font-size: 50px;
-    margin-bottom: 40px;
-    border-radius: 10px;
-    padding: 10px 20px;
-}
-.ten {
-    box-shadow: 30px;
-    background-color: #f1efef;
+
+button:hover {
+    background-color: #218838;
 }
 
   
